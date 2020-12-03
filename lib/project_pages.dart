@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/class/project.dart';
+import 'package:flutter_projects/model/project.dart';
 
 class ProjectPage extends StatelessWidget {
   @override

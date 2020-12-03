@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/converter%20app/converter.dart';
-import 'package:flutter_projects/hello%20world%20proj/home.dart';
 import 'package:flutter_projects/project_pages.dart';
 import 'package:flutter_projects/routes/routes.dart';
 

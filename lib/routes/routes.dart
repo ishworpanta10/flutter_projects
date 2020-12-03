@@ -1,8 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/converter%20app/converter.dart';
-import 'package:flutter_projects/hello%20world%20proj/home.dart';
+import 'package:flutter_projects/project1/hello_world.dart';
+import 'package:flutter_projects/project10/hello_world.dart';
+import 'package:flutter_projects/project11/hello_world.dart';
+import 'package:flutter_projects/project2/converter.dart';
+import 'package:flutter_projects/project3/hello_world.dart';
+import 'package:flutter_projects/project4/hello_world.dart';
+import 'package:flutter_projects/project5/hello_world.dart';
+import 'package:flutter_projects/project6/hello_world.dart';
+import 'package:flutter_projects/project7/hello_world.dart';
+import 'package:flutter_projects/project8/hello_world.dart';
+import 'package:flutter_projects/project9/hello_world.dart';
 
 final Map<String, WidgetBuilder> routes = {
   HelloWorldProject.routeName: (_) => HelloWorldProject(),
   ConverterApp.routeName: (_) => ConverterApp(),
+  MyTime.routeName: (_) => MyTime(),
+  PongGame.routeName: (_) => PongGame(),
+  MovieApp.routeName: (_) => MovieApp(),
+  StoringData.routeName: (_) => StoringData(),
+  FirebaseApp.routeName: (_) => FirebaseApp(),
+  TresureMap.routeName: (_) => TresureMap(),
+  DiceApp.routeName: (_) => DiceApp(),
+  TodoApp.routeName: (_) => TodoApp(),
+  FlutterWeb.routeName: (_) => FlutterWeb(),
 };

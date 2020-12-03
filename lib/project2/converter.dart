@@ -7,7 +7,7 @@ class ConverterApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello World Project'),
+        title: Text('Converter App'),
         backgroundColor: Colors.teal[600],
       ),
       body: SingleChildScrollView(
