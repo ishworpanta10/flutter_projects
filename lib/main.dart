@@ -1,9 +1,14 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_projects/project_pages.dart';
 import 'package:flutter_projects/routes/routes.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    DevicePreview(
+      builder: (BuildContext context) => MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

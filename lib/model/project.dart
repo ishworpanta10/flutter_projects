@@ -2,7 +2,7 @@ import 'package:flutter_projects/project1/hello_world.dart';
 import 'package:flutter_projects/project10/hello_world.dart';
 import 'package:flutter_projects/project11/hello_world.dart';
 import 'package:flutter_projects/project2/converter.dart';
-import 'package:flutter_projects/project3/hello_world.dart';
+import 'package:flutter_projects/project3/home.dart';
 import 'package:flutter_projects/project4/hello_world.dart';
 import 'package:flutter_projects/project5/hello_world.dart';
 import 'package:flutter_projects/project6/hello_world.dart';
@@ -33,7 +33,7 @@ final projectTwo = Project(
 final projectThree = Project(
   projectName: 'My Time',
   projectDesc: 'Listening to stream of data',
-  routeName: MyTime.routeName,
+  routeName: TimerHomePage.routeName,
 );
 
 final projectFour = Project(

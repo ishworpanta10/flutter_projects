@@ -150,8 +150,8 @@ class _ConverterAppState extends State<ConverterApp> {
             Spacer(flex: 2),
             RaisedButton(
               onPressed: () {
-                if (_selectedMeasure.isEmpty ||
-                    _convertedMeasure.isEmpty ||
+                if (_selectedMeasure == null ||
+                    _convertedMeasure == null ||
                     _formInput == 0) {
                   return scaffoldKey.currentState.showSnackBar(SnackBar(
                     content: Text("Field cannot be empty"),
